@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Battle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <img src="assets/Pokemon_logo.png" alt="Pokemon Logo" class="logo">
+        
+        <div class="battlefield">
+            <div class="pokemon" id="pokemon1">
+                <h3 id="name1">PIKACHU</h3>
+                <img id="img1" src="zxc1.png" alt="Pokemon 1" class="pokemon-image">
+                <div class="health-bar">
+                    <div class="health" id="health1" style="width: 100%;"></div>
+                </div>
+                <select id="attack1" class="attack-select"></select>
+                <button id="attack1-button">Attack</button>
+            </div>
+
+            <div class="pokemon" id="pokemon2">
+                <h3 id="name2">CHARMANDER</h3>
+                <img id="img2" src="zxc2.png" alt="Pokemon 2" class="pokemon-image">
+                <div class="health-bar">
+                    <div class="health" id="health2" style="width: 100%;"></div>
+                </div>
+                <select id="attack2" class="attack-select"></select>
+                <button id="attack2-button">Attack</button>
+            </div>
+
+            <img id="pokeball" src="https://avatanplus.com/files/resources/original/57910e491e9421560e9fcda5.png" alt="Pokeball" class="pokeball">
+        </div>
+
+        <div id="logs" class="logs"></div>
+    </div>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
